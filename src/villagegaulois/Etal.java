@@ -11,9 +11,9 @@ public class Etal <P>{
 	private int prix;
 	
 	
-	public void installerVendeur(Gaulois vendeur, IProduit[] produit, int prix) {
+	public void installerVendeur(Gaulois vendeur, P[] produit, int prix) {
 		this.vendeur = vendeur;
-		this.produit = (P[]) produit;
+		this.produit = produit;
 		this.nbProduit =length(produit);
 		this.prix = prix;
 	}
